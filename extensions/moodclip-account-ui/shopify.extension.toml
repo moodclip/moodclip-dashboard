@@ -1,0 +1,11 @@
+api_version = "2025-07"
+
+[[extensions]]
+name        = "MoodClip Dashboard"
+description = "Full-page dashboard in customers’ account area"
+handle      = "moodclip-dashboard"
+type        = "ui_extension"
+
+[[extensions.targeting]]
+module = "./src/index.jsx"
+target = "customer-account.page.render"
